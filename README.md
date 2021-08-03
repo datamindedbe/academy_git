@@ -27,13 +27,14 @@ The following exercices are part of the repository:
     * Merge the existing branch `feature_branch` into `main`
     * Solve the merge conflict that will happen
 
-* **TODO : Exercice 5 (`exercice_5`) - Work with a remote repository**: In this exercice, students are asked to:
-    * Clone a remote repository
-    * Fetch the origin to discover remote branches
+* **Exercice 5 (`exercice_5`) - Work with a remote repository**: In this exercice, students are asked to:
+    * Clone [a remote repository](https://github.com/dernat71/dataminded_git_repo)
+    * Look at the existing branches with `git branch` then `git branch -a`. What's the difference?
     * Create a feature branch
-    * Make some changes (3 commits ?)
+    * Make some changes (e.g 3 commits ?)
     * Push the branch to the remote
     * Open a documented PR
+    * Fetch the origin to discover other branches pushed in the meantime
 
 * **TODO : Exercice 6 (`exercice_6`) - A closer look to the .git folder**: In this exercice, students are asked to:
     * With the `ls -a` command, locate the folder where all the Git magic happens.
