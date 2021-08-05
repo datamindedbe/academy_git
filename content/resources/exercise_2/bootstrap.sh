@@ -5,7 +5,7 @@ cd "$ROOT/exercise_2"
 
 RESOURCES="../resources/exercise_2"
 
-git inits
+git init
 
 cp $RESOURCES/commit1/* .
 git add .
