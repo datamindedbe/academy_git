@@ -3,6 +3,6 @@
 ROOT="$(dirname "$0")/.."
 cd $ROOT
 
-for EXERCICE in $(ls | grep exercice); do
-    rm -rf $EXERCICE
+for EXERCISE in $(ls | grep exercise); do
+    rm -rf $EXERCISE
 done

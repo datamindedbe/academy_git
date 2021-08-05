@@ -3,10 +3,10 @@
 ROOT="$(dirname "$0")/.."
 cd $ROOT
 
-for EXERCICE in $(ls resources | grep exercice); do
+for EXERCISE in $(ls resources | grep exercise); do
     echo "-------------------------------"
-    echo "... Boostraping $EXERCICE ..."
+    echo "... Boostraping $EXERCISE ..."
     echo "-------------------------------"
-    mkdir $EXERCICE
-    ./resources/$EXERCICE/bootstrap.sh
+    mkdir $EXERCISE
+    ./resources/$EXERCISE/bootstrap.sh
 done
