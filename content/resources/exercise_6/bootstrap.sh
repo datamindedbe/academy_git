@@ -8,9 +8,19 @@ RESOURCES_EX6="../resources/exercise_6"
 
 git init
 
-cp -r $RESOURCES_EX6/commit1/* .
+cp $RESOURCES_EX2/commit1/* .
 git add .
-git commit -am "Initial commit. v1 of the server."
+git commit -am "Initial commit. Implemented first version of the client and config file."
+rm *
+
+cp $RESOURCES_EX2/commit2/* .
+git add .
+git commit -am "Modified provider API and added a VERSION file."
+rm *
+
+cp $RESOURCES_EX2/commit3/* .
+git add .
+git commit -am "Tried a third API (Google Stock) and got rid of the VERSION file."
 
 cp $RESOURCES_EX6/README.md .
 git add .
