@@ -31,7 +31,7 @@ cp $RESOURCES_EX4/commit5_feature_branch/* .
 git add .
 git commit -am "Worked on the feature. Modified routing in the client and configs."
 
-git checkout main
+git checkout master
 cp $RESOURCES_EX4/commit5_main/* .
 git add .
 git commit -am "Hotfixed some erroneous configs. Deleted others. Fixed a wrongly named routing in client."
