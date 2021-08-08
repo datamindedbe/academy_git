@@ -49,3 +49,18 @@ The following exercises are part of the repository:
     * Create a pre-commit hook that will format and lint your code with, respectively, `black` and `flake8`
 
 ### 2. How-to run 
+
+First, you need to build the Docker image of the exercise environment (powered by Theia IDE) with:
+```
+docker build -t git-introduction-training:latest .
+```
+
+Then, you can run a specific number of environments with the command below. The script will ask you at which port it must starts to spin-up the environments as well as how many environments should be created: 
+```
+./spawn_the_envs.sh
+```
+
+Once done, you can clean-up the stage with:
+```
+./kill_the_envs.sh
+```
