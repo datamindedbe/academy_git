@@ -3,7 +3,7 @@
 
 This repository is hosting the exercises provided to students in the context of the `Introduction to Git` course of the Dataminded Academy.
 
-### 1. The exercises in details
+## 1. The exercises in details
 
 The following exercises are part of the repository:
 
@@ -48,9 +48,9 @@ The following exercises are part of the repository:
     * Have a look together at what's in there. Particularly at the `hooks` folder.
     * Create a pre-commit hook that will format and lint your code with, respectively, `black` and `flake8`
 
-### 2. How-to run
+## 2. How-to run
 
-#### 2.1 Infrastructre
+### 2.1 Infrastructre
 
 The workshop Lab instance setup can be Terraformed in the current AWS account by running:
 ```
@@ -59,11 +59,16 @@ cd terraform && terraform apply
 
 The user will be asked to input a public SSH key that can be used later to remotely connect to the instance using:
 ```
-ssh ec2-user@<public-dns>
+ssh -i ~/.ssh/<private-key-file>.pem ec2-user@<public-dns>
 ```
 Note that the `<public-dns>` field will be outputed by the Terraform apply operation.
 
-#### 2.2 Run the Lab
+You'll need to install Git and Docker into the EC2 instance:
+```
+sudo yum update -y && sudo yum install git docker -y && sudo service docker start
+```
+
+### 2.2 Run the Lab
 
 To run the lab (locally or from a VM), you need to build the Docker image of the exercise environment (powered by TTYD) with:
 ```
