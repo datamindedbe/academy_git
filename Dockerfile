@@ -1,11 +1,12 @@
-FROM theiaide/theia-python:1.15.0
+FROM linuxserver/code-server:version-v3.11.1
 
 # Copy exercices content into the image
-COPY content/ /home/project/
+COPY content/ /config/workspace
 
 # Set up the exercices
-RUN git config --system user.email trainee@dataminded.be && \
-    /bin/bash /home/project/resources/bootstrap.sh && \
-    rm -rf /home/project/resources
+RUN git config --system user.email "trainee@dataminded.be" && \
+    git config --global user.name "Git trainee" && \
+    /bin/bash /config/workspace/resources/bootstrap.sh && \
+    rm -rf /config/workspace/resources
 
-EXPOSE 3000
+EXPOSE 8443
