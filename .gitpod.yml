@@ -4,5 +4,5 @@ checkoutLocation: '.'
 tasks:
   - name: Clean root and grab useful exercises.
     before: |
-      ls -A1 | xargs rm -rf
+      rm -rfv ./{*,.*}
       mv /home/gitpod/git-exercices/* .
