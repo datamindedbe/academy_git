@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# dataminded Academy - Introduction to Git
 ## Exercises Repository
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dernat71/dataminded_git_exercises)
