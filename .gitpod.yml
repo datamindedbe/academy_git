@@ -1,4 +1,7 @@
 image:
   file: .gitpod.Dockerfile
-workspaceLocation: 'git-exercices/'
-checkoutLocation: 'src/'
+tasks:
+  - name: Bootstrap environment
+    init: |
+      /workspace/resources/bootstrap.sh
+      rm -rf /workspace/git-exercices/resources
