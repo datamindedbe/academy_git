@@ -9,8 +9,8 @@ RUN git config --system user.email "trainee@dataminded.be" && \
 USER gitpod
 
 # Copy exercices content into the image
-COPY --chown=gitpod content/ /home/gitpod/git-exercices
+COPY --chown=gitpod content/ /workspace/git-exercices
 
 # Set up the exercices
-RUN /bin/bash /home/gitpod/git-exercices/resources/bootstrap.sh && \
-    sudo rm -rf /home/gitpod/git-exercices/resources
+RUN /bin/bash /workspace/git-exercices/resources/bootstrap.sh && \
+    rm -rf /workspace/git-exercices/resources
