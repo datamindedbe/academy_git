@@ -1,9 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
 checkoutLocation: '.'
 tasks:
-  - name: Bootstrap environment
-    init: |
-      sudo git config --system user.email "trainee@dataminded.be"
-      sudo git config --global user.name "Git trainee"
-      sudo git config --global init.defaultBranch master
-      ./resources/bootstrap.sh
-      rm -rf resources
+  - name: Clean root and grab useful exercises.
+    before: |
+      ls -A1 | xargs rm -rf
+      mv /home/gitpod/git-exercices/* .
