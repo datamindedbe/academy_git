@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 ## Exercise 6 - Stash and tags
 
 In this exercise you will have to use the stash and tagging mechanisms. The tasks are the following:

@@ -3,7 +3,7 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dernat71/dataminded_git_exercises)
 
-This repository is hosting the exercises provided to students in the context of the `Introduction to Git` course of the Dataminded Academy.
+This repository is hosting the exercises provided to students in the context of the `Introduction to Git` course of the Data Minded Academy.
 
 ## 1. The exercises in details
 

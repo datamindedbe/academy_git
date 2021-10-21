@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 ## Exercise 1 - First commit
 
 In this exercise you will have to use the most fundamental `git` commands. The tasks are the following:

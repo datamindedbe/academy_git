@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 
 ## Exercise 7 - Stash and tags
 

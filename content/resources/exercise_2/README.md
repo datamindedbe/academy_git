@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 ## Exercise 2 - Logs & checkout
 
 In this exercise you will have to use Git time-machine features. The tasks are the following:

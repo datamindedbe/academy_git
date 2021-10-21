@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 ## Exercise 5 - Work with remote repositories
 
 In this exercise you will have to work with a remote repository. The tasks are the following:

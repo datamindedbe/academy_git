@@ -1,4 +1,4 @@
-# Dataminded Academy - Introduction to Git
+# Data Minded Academy - Introduction to Git
 ## Exercise 4 - Deal with merge conflicts
 
 In this exercise you will have to figure out how to deal with merge conflicts. The tasks are the following:
