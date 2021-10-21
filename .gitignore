@@ -7,3 +7,5 @@ content/exercise_*
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+*DS_Store
