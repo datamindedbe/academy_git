@@ -1,7 +1,7 @@
 # Dataminded Academy - Introduction to Git
 ## Exercise 2 - Logs & checkout
 
-In this exercise you will have to use Git time machine features. The tasks are the following:
+In this exercise you will have to use Git time-machine features. The tasks are the following:
 
 1. Open a terminal and position yourself in the root of this folder (`exercise_2`).
 2. Explore the history of the repository to find out about the following questions:

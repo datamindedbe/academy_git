@@ -1,18 +1,18 @@
 # Dataminded Academy - Introduction to Git
-## Exercise 5 - Work with emote repositories
+## Exercise 5 - Work with remote repositories
 
 In this exercise you will have to work with a remote repository. The tasks are the following:
 
 1. Open a terminal and position yourself in the root of this folder (`exercise_5`).
 
-2. Create an account on https://github.com if you don't have one already. In the case you'd prefer to not use your email to create a Github account, you can use https://temp-mail.org/ to create a short-lived email address and use it to create an account.
+2. Create an account on https://github.com if you don't have one already.
 
-3. To clone the remote repository in the next steps, you will need to generate an SSH key on this machine and link it with your Github account. This will allow you to transparently authenticate with Github and make the interactions with the plaform smoother. To generate an SSH key, you can run the following command in the terminal and press Enter until the process is done (leave all the fields per default):
+3. To clone the remote repository in the next steps, you will need to generate an SSH key on this machine and link it with your Github account. This will allow you to transparently authenticate with Github and make the interactions with the platform smoother. To generate an SSH key, you can run the following command in the terminal and press Enter until the process is done (leave all the fields per default):
 ```
 ssh-keygen
 ```
 
-4. Print out the public side of your SSH key in the terminal by running:
+4. Print out the public key of your SSH key pair in the terminal by running:
 ```
 cat ~/.ssh/id_rsa.pub
 ```
