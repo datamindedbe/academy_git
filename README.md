@@ -1,6 +1,8 @@
 # Dataminded Academy - Introduction to Git
 ## Exercises Repository
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/.../...)
+
 This repository is hosting the exercises provided to students in the context of the `Introduction to Git` course of the Dataminded Academy.
 
 ## 1. The exercises in details
