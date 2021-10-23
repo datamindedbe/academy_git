@@ -1,5 +1,9 @@
 FROM gitpod/workspace-full
 
+# This env var is used to force the 
+# rebuild of the Gitpod environment when needed
+ENV TRIGGER_REBUILD 0
+
 USER root
 
 RUN git config --system user.email "trainee@dataminded.be" && \
