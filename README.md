@@ -52,6 +52,10 @@ The following exercises are part of the repository:
 
 ## 2. How-to run
 
+This exercise workshop can be run directly on Gitpod (without any need to provision VM or anything) or in a regular Cloud VM. The sections below explain how to run on a Cloud VM. For Gitpod run, you just need to click the button below.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dernat71/dataminded_git_exercises)
+
 ### 2.1 Infrastructre
 
 The workshop Lab instance setup can be Terraformed in the current AWS account by running:
@@ -72,7 +76,7 @@ sudo yum update -y && sudo yum install git docker -y && sudo service docker star
 
 ### 2.2 Run the Lab
 
-To run the lab (locally or from a VM), you need to build the Docker image of the exercise environment (powered by TTYD) with:
+To run the lab (locally or from a VM), you need to build the Docker image of the exercise environment with:
 ```
 docker build -t git-introduction-training:latest .
 ```
